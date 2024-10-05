@@ -106,7 +106,7 @@ img {
 }
 
 .gallery-item {
-  width: calc(33.333% - 20px);
+  width: -webkit-calc(33.333% - 20px);
   border-radius: 10px;
 }
 
@@ -133,6 +133,6 @@ img {
   }
 
   .gallery-item {
-    width: calc(50% - 20px);
+    width: -webkit-calc(50% - 20px);
   }
 }
