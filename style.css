@@ -22,6 +22,11 @@ img {
   max-width: 100%;
 }
 
+/* Utility Classes */
+.bg-primary {
+  background: #fcf5e9;
+}
+
 /* Container */
 
 .container {
@@ -70,9 +75,33 @@ img {
   font-weight: 600;
 }
 
+/* Hero */
+.hero {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+/* Media Queries */
 @media (max-width: 786px) {
   .header .header-flex {
     flex-direction: column;
     gap: 1.5rem;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
   }
 }
