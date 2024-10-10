@@ -6,6 +6,7 @@
 
 :root {
   --primary-color: #fcf5e9;
+  --dark-color: #333;
   --container-normal: 1100px;
   --container-wide: 1400px;
   --container-narrow: 900px;
@@ -32,6 +33,16 @@ img {
 /* Utility Classes */
 .bg-primary {
   background: var(--primary-color);
+  color: #333;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-dark .bg-primary {
+  padding: 0 0.3rem;
 }
 
 .section-heading {
@@ -154,8 +165,6 @@ footer a {
 /* Services - About Page */
 
 .services {
-  background: #333;
-  color: #fff;
   padding: 3rem 0 4rem;
 }
 
