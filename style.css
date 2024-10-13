@@ -51,6 +51,31 @@ img {
   margin-bottom: 40px;
 }
 
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid #333;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333;
+  color: #fff;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* Container */
 
 .container {
@@ -193,6 +218,43 @@ footer a {
   border-radius: 10px;
 }
 
+/* Contact Page */
+
+.contact {
+  padding: 3rem 0 4rem;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-gruop {
+  margin: 2rem 0;
+}
+
+.contact input,
+.contact textarea {
+  border: none;
+  border-bottom: #333 1px solid;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  padding-bottom: 1rem;
+}
+
+.contact textarea {
+  height: 200px;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: 0;
+}
+
+.contact .btn {
+  width: 100%;
+}
 /* Media Queries */
 @media (max-width: 786px) {
   .header .header-flex,
